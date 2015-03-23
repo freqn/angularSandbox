@@ -1,0 +1,40 @@
+/**** ASSETS & DEFAULTS ****/
+
+	@import url();
+	@import url();
+	@font-face {font-family: fontname; src: url('');}
+
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+	}
+	body {
+		width: 100%;
+		padding: 30px;
+	}
+	#copyright {margin: 0 auto; width: 100%; text-align: center}
+
+/**** PAGE ***/
+section {
+	width: 50%;
+	min-width: 300px;
+	margin: 0 auto 50px;
+}
+.list-group-item {
+	background: #f09709 !important; /** Bootstrap override **/
+	margin-bottom: 20px !important; /** Bootstrap override **/
+	border-radius: 10px !important; /** Bootstrap override **/
+	padding: 0 0 20px 30px !important; /** Bootstrap override **/
+}
+.list-group-item h2:nth-of-type(2) {
+	margin-bottom: 20px;
+}
+.btn-primary {
+	background: #379928 !important; /** Bootstrap override **/
+	width: 150px;
+	height: 60px;
+	font-size: 22px !important; /** Bootstrap override **/
+	transition: 0.3s;
+}
+.btn-primary:hover {
+	background: #2b3310 !important;/** Bootstrap override **/
+}
